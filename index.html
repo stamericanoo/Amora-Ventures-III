@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amora Ventures | Sulfuric Acid Plant</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>AMORA VENTURES</h1>
+        <h2>Sulfuric Acid Plant</h2>
+        <p>1000 Tons Per Day (TPD) – Complete Technical & Economic Analysis</p>
+        <a href="#process" class="btn">Explore Project</a>
+    </div>
+</section>
+
+<!-- INTRO -->
+<section class="section white">
+    <h2>Project Overview</h2>
+    <p>
+    This project presents a complete design of a 1000 TPD Sulfuric Acid Plant
+    using the Contact Process with 98% overall efficiency. The website includes
+    detailed technical analysis, cost estimation, and economic feasibility study.
+    </p>
+</section>
+
+<!-- PROCESS FLOW -->
+<section id="process" class="section maroon">
+    <h2>Process Flow Diagram</h2>
+
+    <div class="flow-container">
+
+        <div class="flow-box">1️⃣ Sulfur Burning<br><small>S + O₂ → SO₂<br>900–1100°C</small></div>
+        <div class="arrow">→</div>
+
+        <div class="flow-box">2️⃣ Gas Cleaning<br><small>Dust & Moisture Removal<br>40–80°C</small></div>
+        <div class="arrow">→</div>
+
+        <div class="flow-box">3️⃣ Catalytic Converter<br><small>2SO₂ + O₂ ⇌ 2SO₃<br>V₂O₅</small></div>
+        <div class="arrow">→</div>
+
+        <div class="flow-box">4️⃣ Absorption Tower<br><small>SO₃ + H₂SO₄ → Oleum</small></div>
+        <div class="arrow">→</div>
+
+        <div class="flow-box">5️⃣ Dilution<br><small>H₂S₂O₇ + H₂O → H₂SO₄</small></div>
+
+    </div>
+</section>
+
+<!-- TECHNICAL DETAILS -->
+<section class="section white">
+    <h2>Operating Conditions</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Temperature</h3>
+            <p>420 – 450°C (Converter)</p>
+        </div>
+
+        <div class="card">
+            <h3>Pressure</h3>
+            <p>1 – 2 atm</p>
+        </div>
+
+        <div class="card">
+            <h3>Catalyst</h3>
+            <p>Vanadium (V₂O₅)</p>
+        </div>
+
+        <div class="card">
+            <h3>Efficiency</h3>
+            <p>98%</p>
+        </div>
+    </div>
+</section>
+
+<!-- COST ESTIMATION -->
+<section class="section maroon">
+    <h2>Total Capital Investment</h2>
+
+    <div class="highlight-box">
+        Rp 1,127,141,720,250
+    </div>
+
+    <p>
+    Includes Direct Cost (DC), Indirect Cost (IC),
+    Working Capital (WC) and all major equipment.
+    </p>
+</section>
+
+<!-- OPEX -->
+<section class="section white">
+    <h2>Annual Production Cost</h2>
+
+    <div class="grid">
+        <div class="card">Variable Cost<br><strong>Rp 386.1 B</strong></div>
+        <div class="card">Fixed Cost<br><strong>Rp 152.7 B</strong></div>
+        <div class="card">Total Production Cost<br><strong>Rp 538.8 B</strong></div>
+    </div>
+</section>
+
+<!-- REVENUE -->
+<section class="section maroon">
+    <h2>Economic Feasibility</h2>
+
+    <div class="grid">
+        <div class="card white-card">
+            Revenue<br><strong>Rp 660 B / year</strong>
+        </div>
+        <div class="card white-card">
+            Net Profit<br><strong>Rp 94.5 B / year</strong>
+        </div>
+        <div class="card white-card">
+            Payback Period<br><strong>10.3 Years</strong>
+        </div>
+        <div class="card white-card">
+            Break Even Point<br><strong>56% Capacity</strong>
+        </div>
+    </div>
+</section>
+
+<!-- BEP GRAPH -->
+<section class="section white">
+    <h2>Break Even Analysis</h2>
+    <canvas id="bepChart"></canvas>
+</section>
+
+<!-- CASHFLOW GRAPH -->
+<section class="section maroon">
+    <h2>Projected Cashflow</h2>
+    <canvas id="cashflowChart"></canvas>
+</section>
+
+<footer>
+    © 2026 Amora Ventures – Sulfuric Acid Plant Design
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
